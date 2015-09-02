@@ -9,6 +9,6 @@ package abstractionhomeworkseptsecond;
  *
  * @author Alyson
  */
-public class SupernaturalPower {
+public interface SupernaturalPower {
     
 }
