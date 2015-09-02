@@ -9,6 +9,6 @@ package abstractionhomeworkseptsecond;
  *
  * @author Alyson
  */
-public class Sanitizer {
-    
+public interface Sanitizer extends SanitationChemical{
+    public boolean use();
 }

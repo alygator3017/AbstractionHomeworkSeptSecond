@@ -9,6 +9,6 @@ package abstractionhomeworkseptsecond;
  *
  * @author Alyson
  */
-public class SanitationChemical {
-    
+public interface SanitationChemical extends Chemical {
+    public String mix(String agent);
 }
