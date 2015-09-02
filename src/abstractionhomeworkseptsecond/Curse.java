@@ -14,6 +14,7 @@ public class Curse implements MagicSpell {
     public String castUpon;
     public String duration;
     public String curseName;
+    public String severityOfCurse;
 
     public String getCastUpon() {
         return castUpon;
