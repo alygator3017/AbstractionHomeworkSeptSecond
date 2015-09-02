@@ -41,7 +41,7 @@ public class Curse implements MagicSpell {
     }
     
 
-    @Override
+ 
     public boolean castSpell() {
         return false;
         

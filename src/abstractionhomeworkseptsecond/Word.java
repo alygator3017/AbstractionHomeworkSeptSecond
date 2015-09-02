@@ -28,25 +28,25 @@ public class Word implements EnglishWord{
     }
 
     
-    @Override
+    
     public String language() {
         return null;
         
     }
 
-    @Override
+    
     public char letter() {
         return 0;
         
     }
     
-    @Override
+    
     public boolean isWord(){
         return false;
         
     }
 
-    @Override
+  
     public char letterInWord() {
         return 0;
         

@@ -21,17 +21,14 @@ public class NikeFlyKnitLunar3 implements RunningShoe {
         this.howToPutOnShoe = howToPutOnShoe;
     }
 
-    @Override
     public boolean run() {
         return false;
     }
 
-    @Override
     public boolean doSomething(boolean shouldWeDoAnActivity) {
         return false;
     }
 
-    @Override
     public String putOn(String how) {
 
         return howToPutOnShoe;

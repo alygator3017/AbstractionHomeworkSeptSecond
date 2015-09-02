@@ -10,5 +10,5 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public interface RunningShoe extends AthleticShoe  {
-    public boolean run();
+    public abstract boolean run();
 }

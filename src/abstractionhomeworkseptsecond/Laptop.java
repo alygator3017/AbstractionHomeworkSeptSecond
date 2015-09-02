@@ -35,13 +35,11 @@ public class Laptop implements ElectronicDevice {
         return openOrCloseLaptop;
     }
 
-    @Override
     public boolean turnOn(boolean turnOn) {
         return false;
         
     }
 
-    @Override
     public boolean turnOff(boolean turnOff) {
         return false;
         

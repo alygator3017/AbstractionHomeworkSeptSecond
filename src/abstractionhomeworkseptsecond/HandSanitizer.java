@@ -39,13 +39,11 @@ public class HandSanitizer implements Sanitizer{
     }
     
 
-    @Override
     public boolean use() {
         return false;
         
     }
 
-    @Override
     public String mix(String agent) {
         return null;
         
