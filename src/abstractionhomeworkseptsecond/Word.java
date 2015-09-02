@@ -9,6 +9,47 @@ package abstractionhomeworkseptsecond;
  *
  * @author Alyson
  */
-public class Word extends EnglishWord{
+public class Word implements EnglishWord{
+
+    public String word;
+    public String[] lettersInWord;
+
+    public String getWord() {
+        return word;
+    }
+
+    public void setWord(String word) {
+        this.word = word;
+    }
+
+    public Word(String[] word) {
+        //put letters into array- what I have now is temporary placement.
+        this.lettersInWord = word;
+    }
+
+    
+    @Override
+    public String language() {
+        return null;
+        
+    }
+
+    @Override
+    public char letter() {
+        return 0;
+        
+    }
+    
+    @Override
+    public boolean isWord(){
+        return false;
+        
+    }
+
+    @Override
+    public char letterInWord() {
+        return 0;
+        
+    }
     
 }
