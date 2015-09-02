@@ -10,11 +10,11 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public abstract class MythicalHorse implements MythicalAnimal {
-    public static String sound = "neigh";
-    public static String hoofSound = "bang bang bang";
-    public static String walk = "Clop Clop Clop Clop";
-    public static String canter = "Clopclop clopclop";
-    public static String gallop = "ClippityClap ClippityClap";
+    private static final String sound = "neigh";
+    private static final String hoofSound = "bang bang bang";
+    private static final String walk = "Clop Clop Clop Clop";
+    private static final String canter = "Clopclop clopclop";
+    private static final String gallop = "ClippityClap ClippityClap";
     
     public String Neigh(){
         return sound;
@@ -23,6 +23,28 @@ public abstract class MythicalHorse implements MythicalAnimal {
     public String stompHoof(){
         return hoofSound;
     }
+
+    public static String getSound() {
+        return sound;
+    }
+
+    public static String getHoofSound() {
+        return hoofSound;
+    }
+
+    public static String getWalk() {
+        return walk;
+    }
+
+    public static String getCanter() {
+        return canter;
+    }
+
+    public static String getGallop() {
+        return gallop;
+    }
+    
+    
     @Override
     public String run(int speed){
         if (speed < 3){
