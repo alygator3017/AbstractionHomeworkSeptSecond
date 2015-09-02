@@ -10,5 +10,5 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public interface EnglishLanguage extends Language {
-    
+    public char letter();
 }
