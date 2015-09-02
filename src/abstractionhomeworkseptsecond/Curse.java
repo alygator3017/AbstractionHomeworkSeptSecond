@@ -10,11 +10,19 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public class Curse implements MagicSpell {
-    private final String spellSound = "DOOOOOOOOOOOM!";
+    private final String SPELL_SOUND = "DOOOOOOOOOOOM!";
     private String castUpon;
     private String duration;
     private String curseName;
     private String severityOfCurse;
+
+    public String getSeverityOfCurse() {
+        return severityOfCurse;
+    }
+
+    public void setSeverityOfCurse(String severityOfCurse) {
+        this.severityOfCurse = severityOfCurse;
+    }
 
     public String getCastUpon() {
         return castUpon;
@@ -43,6 +51,7 @@ public class Curse implements MagicSpell {
 
  
     public boolean castSpell() {
+        
         return false;
         
     }

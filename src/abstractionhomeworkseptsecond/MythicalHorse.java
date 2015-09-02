@@ -11,11 +11,11 @@ package abstractionhomeworkseptsecond;
  */
 public abstract class MythicalHorse implements MythicalAnimal {
 
-    private static final String sound = "neigh";
-    private static final String hoofSound = "bang bang bang";
-    private static final String walk = "Clop Clop Clop Clop";
-    private static final String canter = "Clopclop clopclop";
-    private static final String gallop = "ClippityClap ClippityClap";
+    private static final String SOUND = "neigh";
+    private static final String HOOF_SOUND = "bang bang bang";
+    private static final String WALK = "Clop Clop Clop Clop";
+    private static final String CANTER = "Clopclop clopclop";
+    private static final String GALLOP = "ClippityClap ClippityClap";
     private int height;
     private int weight;
     private int age;
@@ -66,7 +66,7 @@ public abstract class MythicalHorse implements MythicalAnimal {
     }
 
     public String Neigh() {
-        return sound;
+        return SOUND;
 
     }
 
@@ -79,37 +79,36 @@ public abstract class MythicalHorse implements MythicalAnimal {
     }
 
     public String stompHoof() {
-        return hoofSound;
+        return HOOF_SOUND;
     }
 
     public static String getSound() {
-        return sound;
+        return SOUND;
     }
 
     public static String getHoofSound() {
-        return hoofSound;
+        return HOOF_SOUND;
     }
 
     public static String getWalk() {
-        return walk;
+        return WALK;
     }
 
     public static String getCanter() {
-        return canter;
+        return CANTER;
     }
 
     public static String getGallop() {
-        return gallop;
+        return GALLOP;
     }
 
-    @Override
     public String run(int speed) {
         if (speed < 3) {
-            return walk;
+            return WALK;
         } else if (speed < 7) {
-            return canter;
+            return CANTER;
         } else {
-            return gallop;
+            return GALLOP;
         }
     }
 

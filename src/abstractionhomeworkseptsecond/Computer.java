@@ -10,7 +10,7 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public interface Computer extends ElectronicDevice {
-    public boolean openApplication();
-    public boolean closeApplication();
+    public abstract boolean openApplication();
+    public abstract boolean closeApplication();
     
 }
