@@ -9,6 +9,46 @@ package abstractionhomeworkseptsecond;
  *
  * @author Alyson
  */
-public class HandSanitizer {
+public class HandSanitizer implements Sanitizer{
+    public boolean areYourHandsDry;
+    public boolean isSaniDryOnHands;
+    public boolean goodToGo;
+
+    public boolean isAreYourHandsDry() {
+        return areYourHandsDry;
+    }
+
+    public void setAreYourHandsDry(boolean areYourHandsDry) {
+        this.areYourHandsDry = areYourHandsDry;
+    }
+
+    public boolean isIsSaniDryOnHands() {
+        return isSaniDryOnHands;
+    }
+
+    public void setIsSaniDryOnHands(boolean isSaniDryOnHands) {
+        this.isSaniDryOnHands = isSaniDryOnHands;
+    }
+
+    public boolean isGoodToGo() {
+        return goodToGo;
+    }
+
+    public void setGoodToGo(boolean goodToGo) {
+        this.goodToGo = goodToGo;
+    }
+    
+
+    @Override
+    public boolean use() {
+        return false;
+        
+    }
+
+    @Override
+    public String mix(String agent) {
+        return null;
+        
+    }
     
 }
