@@ -11,8 +11,8 @@ package abstractionhomeworkseptsecond;
  */
 public class Word implements EnglishWord{
 
-    public String word;
-    public String[] lettersInWord;
+    private String word;
+    private String[] lettersInWord;
 
     public String getWord() {
         return word;

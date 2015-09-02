@@ -11,7 +11,7 @@ package abstractionhomeworkseptsecond;
  */
 public class NikeFlyKnitLunar3 implements RunningShoe {
 
-    String howToPutOnShoe;
+    private String howToPutOnShoe;
 
     public String getHowToPutOnShoe() {
         return howToPutOnShoe;

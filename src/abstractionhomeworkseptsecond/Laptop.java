@@ -10,7 +10,7 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public class Laptop implements ElectronicDevice {
-    public String open;
+    private String open;
 
     public String getOpen() {
         return open;

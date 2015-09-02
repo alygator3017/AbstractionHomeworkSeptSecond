@@ -10,9 +10,9 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public class HandSanitizer implements Sanitizer{
-    public boolean areYourHandsDry;
-    public boolean isSaniDryOnHands;
-    public boolean goodToGo;
+    private boolean areYourHandsDry;
+    private boolean isSaniDryOnHands;
+    private boolean goodToGo;
 
     public boolean isAreYourHandsDry() {
         return areYourHandsDry;

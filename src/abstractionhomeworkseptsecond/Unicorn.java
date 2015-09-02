@@ -11,7 +11,7 @@ package abstractionhomeworkseptsecond;
  */
 public class Unicorn extends MythicalHorse {
 
-    public int lengthOfHorn;
+    private int lengthOfHorn;
 
     public int getLengthOfHorn() {
         return lengthOfHorn;
