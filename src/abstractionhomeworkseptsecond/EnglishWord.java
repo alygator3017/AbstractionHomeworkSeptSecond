@@ -9,6 +9,6 @@ package abstractionhomeworkseptsecond;
  *
  * @author Alyson
  */
-public interface EnglishWord extends Language {
+public abstract class EnglishWord implements EnglishAlphabet {
     public 
 }
