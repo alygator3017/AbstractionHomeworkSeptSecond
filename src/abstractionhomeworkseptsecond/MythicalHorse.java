@@ -9,6 +9,11 @@ package abstractionhomeworkseptsecond;
  *
  * @author Alyson
  */
-public class MythicalHorse {
-    
+public interface MythicalHorse extends MythicalAnimal {
+    public static final String SOUND = "neigh";
+    public static final String HOOF_SOUND = "bang bang bang";
+    public boolean Neigh();
+    public boolean stompHoof();
+    public boolean gallop();
+    public boolean canter();
 }

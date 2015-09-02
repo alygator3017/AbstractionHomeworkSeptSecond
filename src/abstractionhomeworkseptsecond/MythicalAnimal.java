@@ -9,6 +9,6 @@ package abstractionhomeworkseptsecond;
  *
  * @author Alyson
  */
-public class MythicalAnimal {
-    
+public interface MythicalAnimal extends MythicalBeing {
+    public boolean run();
 }
