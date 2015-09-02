@@ -9,6 +9,6 @@ package abstractionhomeworkseptsecond;
  *
  * @author Alyson
  */
-public class CombinationOfLetters {
+public abstract class CombinationOfLetters implements Language {
     
 }

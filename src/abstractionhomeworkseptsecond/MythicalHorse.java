@@ -9,11 +9,30 @@ package abstractionhomeworkseptsecond;
  *
  * @author Alyson
  */
-public interface MythicalHorse extends MythicalAnimal {
-    public static final String SOUND = "neigh";
-    public static final String HOOF_SOUND = "bang bang bang";
-    public boolean Neigh();
-    public boolean stompHoof();
-    public boolean gallop();
-    public boolean canter();
+public abstract class MythicalHorse implements MythicalAnimal {
+    public static String sound = "neigh";
+    public static String hoofSound = "bang bang bang";
+    public static String walk = "Clop Clop Clop Clop";
+    public static String canter = "Clopclop clopclop";
+    public static String gallop = "ClippityClap ClippityClap";
+    
+    public String Neigh(){
+        return sound;
+        
+    }
+    public String stompHoof(){
+        return hoofSound;
+    }
+    @Override
+    public String run(int speed){
+        if (speed < 3){
+            return walk;
+        }
+        else if(speed < 7){
+            return canter;
+        }
+        else{
+            return gallop;
+        }
+    }
 }

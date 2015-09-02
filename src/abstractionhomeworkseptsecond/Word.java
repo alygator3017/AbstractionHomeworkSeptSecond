@@ -9,6 +9,6 @@ package abstractionhomeworkseptsecond;
  *
  * @author Alyson
  */
-public class Word {
+public class Word extends CombinationOfLetters{
     
 }

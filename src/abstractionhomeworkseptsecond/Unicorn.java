@@ -9,14 +9,14 @@ package abstractionhomeworkseptsecond;
  *
  * @author Alyson
  */
-public class Unicorn implements MythicalHorse{
+public class Unicorn extends MythicalHorse{
     public int lengthOfHorn;
     public String color;
     public int height;
     public int weight;
     public int age;
     public String name;
-
+    
     public int getLengthOfHorn() {
         return lengthOfHorn;
     }
@@ -65,36 +65,5 @@ public class Unicorn implements MythicalHorse{
         this.name = name;
     }
     
-    
-
-    @Override
-    public boolean Neigh() {
-        return false;
-        
-    }
-
-    @Override
-    public boolean stompHoof() {
-        return false;
-        
-    }
-
-    @Override
-    public boolean gallop() {
-        return false;
-        
-    }
-
-    @Override
-    public boolean canter() {
-        return false;
-        
-    }
-
-    @Override
-    public boolean run() {
-        return false;
-        
-    }
     
 }

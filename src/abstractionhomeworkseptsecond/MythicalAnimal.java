@@ -10,5 +10,5 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public interface MythicalAnimal extends MythicalBeing {
-    public boolean run();
+    public String run(int speed);
 }
