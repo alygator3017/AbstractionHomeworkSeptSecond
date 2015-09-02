@@ -10,5 +10,5 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public interface MagicSpell extends SupernaturalAbility {
-    
+    public boolean castSpell();
 }
