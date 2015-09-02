@@ -9,6 +9,6 @@ package abstractionhomeworkseptsecond;
  *
  * @author Alyson
  */
-public interface Language extends Communication {
+public interface Language {
     public String language();
 }
