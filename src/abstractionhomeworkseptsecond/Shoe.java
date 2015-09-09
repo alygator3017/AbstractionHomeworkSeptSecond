@@ -10,5 +10,5 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public interface Shoe {
-    public abstract String putOn(String how);
+    
 }

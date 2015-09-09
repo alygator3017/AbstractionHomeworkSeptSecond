@@ -9,29 +9,18 @@ package abstractionhomeworkseptsecond;
  *
  * @author Alyson
  */
-public class NikeFlyKnitLunar3 implements RunningShoe {
+public class NikeFlyKnitLunar3 extends RunningShoe {
 
-    private String howToPutOnShoe;
+    public String brand;
+    private String color;
+    private String gender;
+    private float size;
+    private String type;
 
-    public String getHowToPutOnShoe() {
-        return howToPutOnShoe;
+    public NikeFlyKnitLunar3() {
+        RunningShoe lunar3 = new RunningShoe("nike", "purple", "womens", (float) 11.5, "trail") {
+        };
+        
     }
-
-    public void setHowToPutOnShoe(String howToPutOnShoe) {
-        this.howToPutOnShoe = howToPutOnShoe;
-    }
-
-    public boolean run() {
-        return false;
-    }
-
-    public boolean doSomething(boolean shouldWeDoAnActivity) {
-        return false;
-    }
-
-    public String putOn(String how) {
-
-        return howToPutOnShoe;
-    }
-
+    
 }
