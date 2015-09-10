@@ -5,7 +5,7 @@ package abstractionhomeworkseptsecond;
  *
  * @author Alyson
  */
-public class AbstractionHomeworkSeptSecond extends NikeFlyKnitLunar3{
+public class AbstractionHomeworkSeptSecond{
 
     /**
      * @param args the command line arguments

@@ -10,6 +10,6 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public interface Electronic {
-    public boolean turnOn(boolean turnOn);
-    public boolean turnOff(boolean turnOff);
+    public void turnOn();
+    public void turnOff();
 }

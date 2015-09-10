@@ -9,40 +9,74 @@ package abstractionhomeworkseptsecond;
  *
  * @author Alyson
  */
-public class Laptop implements ElectronicDevice {
-    private String open;
+public class Laptop implements Computer {
 
-    public String getOpen() {
+    private boolean close = true;
+    private String openOrCloseLaptop;
+    private boolean openApp;
+    private boolean closeApp;
+    private boolean open = false;
+
+    public boolean isOpen() {
         return open;
     }
 
-    public void setOpen(String open) {
+    public void setOpen(boolean open) {
         this.open = open;
     }
 
-    public String getClose() {
+    public boolean isClose() {
         return close;
     }
 
-    public void setClose(String close) {
+    public void setClose(boolean close) {
         this.close = close;
     }
-    public String close;
-    public String openOrCloseLaptop;
-    
-    public String openOrClose(String orientation){
-        //..... stuff here on if to open or close
+
+    public boolean isOpenApp() {
+        return openApp;
+    }
+
+    public void setOpenApp(boolean openApp) {
+        this.openApp = openApp;
+    }
+
+    public boolean isCloseApp() {
+        return closeApp;
+    }
+
+    public void setCloseApp(boolean closeApp) {
+        this.closeApp = closeApp;
+    }
+
+    public String getOpenOrCloseLaptop() {
         return openOrCloseLaptop;
     }
 
-    public boolean turnOn(boolean turnOn) {
-        return false;
-        
+    public void setOpenOrCloseLaptop(String openOrCloseLaptop) {
+        this.openOrCloseLaptop = openOrCloseLaptop;
     }
 
-    public boolean turnOff(boolean turnOff) {
-        return false;
-        
+    @Override
+    public void turnOn() {
+        System.out.println("Hello Unicorn Joe!");
     }
-    
+
+    @Override
+    public void turnOff() {
+        System.out.println("Goodbye Traitor... until next time");
+    }
+
+    @Override
+    public boolean openApplication() {
+        return false;
+
+    }
+
+    @Override
+    public boolean closeApplication() {
+        return false;
+
+    }
+
 }
