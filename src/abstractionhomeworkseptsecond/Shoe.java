@@ -10,5 +10,6 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public interface Shoe {
-    
+    public abstract void walk();
+    public abstract void putOn();
 }

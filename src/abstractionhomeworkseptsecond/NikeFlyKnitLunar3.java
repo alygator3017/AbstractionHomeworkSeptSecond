@@ -9,18 +9,75 @@ package abstractionhomeworkseptsecond;
  *
  * @author Alyson
  */
-public class NikeFlyKnitLunar3 extends RunningShoe {
+public class NikeFlyKnitLunar3 implements RunningShoe {
 
-    public String brand;
+    private String brand;
     private String color;
     private String gender;
     private float size;
     private String type;
 
-    public NikeFlyKnitLunar3() {
-        RunningShoe lunar3 = new RunningShoe("nike", "purple", "womens", (float) 11.5, "trail") {
-        };
+    @Override
+    public void tie() {
+        //tie shoe using laces
+    }
+
+    @Override
+    public void run() {
         
     }
+
+    @Override
+    public void walk() {
+        
+    }
+
+    @Override
+    public void putOn() {
+        //put shoe one
+        tie();
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public final void setBrand(String brand) {
+        this.brand = "nike";
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public float getSize() {
+        return size;
+    }
+
+    public void setSize(float size) {
+        this.size = size;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    
     
 }

@@ -10,5 +10,4 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public interface AthleticShoe extends Shoe{
-    
 }
