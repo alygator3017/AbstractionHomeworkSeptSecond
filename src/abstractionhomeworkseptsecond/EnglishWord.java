@@ -11,7 +11,5 @@ package abstractionhomeworkseptsecond;
  */
 public interface EnglishWord extends EnglishLanguage {
     
-    
-    public char letterInWord();
-    public boolean isWord();
+    public abstract void slang();
 }

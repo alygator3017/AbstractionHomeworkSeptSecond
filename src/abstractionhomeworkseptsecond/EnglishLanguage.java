@@ -10,5 +10,6 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public interface EnglishLanguage extends Language {
-    public char letter();
+    public abstract void dialect();
+    public abstract void alphabet();
 }
