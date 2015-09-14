@@ -10,5 +10,5 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public interface SupernaturalAbility extends SupernaturalPower {
-    
+    public abstract String specialAbilityClass();
 }

@@ -10,5 +10,5 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public interface SupernaturalPower {
-    
+    public abstract String typeOfPower();
 }

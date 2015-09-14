@@ -50,9 +50,22 @@ public class Curse implements MagicSpell {
     
 
  
+    @Override
     public boolean castSpell() {
         
         return false;
+        
+    }
+
+    @Override
+    public String typeOfPower() {
+        return null;
+        
+    }
+
+    @Override
+    public String specialAbilityClass() {
+        return null;
         
     }
     
