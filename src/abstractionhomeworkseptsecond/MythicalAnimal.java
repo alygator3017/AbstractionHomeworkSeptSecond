@@ -11,7 +11,8 @@ package abstractionhomeworkseptsecond;
  */
 public interface MythicalAnimal extends MythicalBeing {
 
-    public String run(int speed);
+    public abstract String run(int speed);
+    public abstract void doSomething();
 
     
     

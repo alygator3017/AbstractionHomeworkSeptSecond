@@ -10,5 +10,8 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public interface MythicalBeing {
-    
+    public abstract String getName();
+    public abstract int age();
+    public abstract String isGoodOrBad();
+    public abstract String speak();
 }
