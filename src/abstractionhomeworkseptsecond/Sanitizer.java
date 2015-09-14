@@ -10,5 +10,6 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public interface Sanitizer extends SanitationChemical{
-    public boolean use();
+    public abstract boolean use();
+    public abstract String baseType(String sanitizer);
 }

@@ -10,5 +10,5 @@ package abstractionhomeworkseptsecond;
  * @author Alyson
  */
 public interface SanitationChemical extends Chemical {
-    public String mix(String agent);
+    public abstract String findUses(String chemical);
 }
