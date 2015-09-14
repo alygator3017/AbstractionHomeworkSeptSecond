@@ -27,29 +27,23 @@ public class Word implements EnglishWord{
         this.lettersInWord = word;
     }
 
-    
-    
-    public String language() {
-        return null;
+    @Override
+    public void slang() {
+        
+    }
+
+    @Override
+    public void dialect() {
+        
+    }
+
+    @Override
+    public void alphabet() {
         
     }
 
     
-    public char letter() {
-        return 0;
-        
-    }
     
-    
-    public boolean isWord(){
-        return false;
-        
-    }
-
-  
-    public char letterInWord() {
-        return 0;
-        
-    }
+   
     
 }
